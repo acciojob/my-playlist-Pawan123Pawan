@@ -16,15 +16,18 @@
       border-radius: 5px;
     }
     .player_one ul{
+      
       background: white;
       
     }
     .player_one li{
       background: white;
-      text-decoration: none;
+      list-style-type:none;
+
     }
     .player_one a{
       background: white;
+      color: #000;
       text-decoration-line:none;
     }
     .player_two{
@@ -52,21 +55,26 @@
   </style>
 </head>
 <body>
+  
   <h1 style="text-align: center;">My Plalist</h1>
   <div class="player_one">
     <ul>
-      <li><a href="https://www.youtube.com/watch?v=kd-6aw99DpA ">Song1</a></li>
-      <li><a href="https://www.youtube.com/watch?v=9iIX4PBplAY ">Song2</a></li>
-      <li><a href="https://www.youtube.com/watch?v=IjBAgWKW12Y ">Song3</a></li>
-      <li><a href="https://www.youtube.com/watch?v=puKD3nkB1h4 ">Song4</a></li>
-      <li><a href="https://www.youtube.com/watch?v=6MgsHSAcI9k">Song5</a></li>
+      <li><a href="https://www.youtube.com/watch?v=kd-6aw99DpA " target="">Song1</a></li>
+      <li><a href="https://www.youtube.com/watch?v=9iIX4PBplAY " target="">Song2</a></li>
+      <li><a href="https://www.youtube.com/watch?v=IjBAgWKW12Y " target="">Song3</a></li>
+      <li><a href="https://www.youtube.com/watch?v=puKD3nkB1h4 " target="">Song4</a></li>
+      <li><a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" target="">Song5</a></li>
     </ul>
   </div>
   <h2 style="text-align: center;">Now Playing........</h2>
   <div class="player_two">
-    <video source=" https://www.w3schools.com/tags/movie.mp4" controls></video>
+    <video controls>
+      <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+    </video>
     <h3  style="text-align: center;">MP3 songs</h3>
-    <audio source="https://www.pagalworld.com.se/files/download/id/64630" controls></audio>
+    <audio  controls>
+      <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mp4">
+    </audio>
   </div>
 </body>
 </html>
